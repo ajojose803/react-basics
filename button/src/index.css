@@ -1,0 +1,32 @@
+/* Center the .container vertically and horizontally on the page */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f0f0f0; /* Optional background for better visibility */
+}
+
+.container {
+  height: 200px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better UI */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; /* Adds space between the buttons */
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+}

@@ -1,0 +1,23 @@
+
+
+.profile_card{
+  height: 120px;
+  margin-bottom: 20px;
+  background-color: #1574c8;
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
+}
+
+.profile_card h1{
+  margin: 0;
+  display: block;
+  
+
+}
+.profile_card p{
+  color: black;
+}
