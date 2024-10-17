@@ -30,14 +30,16 @@ export default function ProfileCard() {
             {user && (
                 <div className="" key={user.id}>
                     <h1 className=' mt-5 font-sans text-2xl font-bold flex justify-center'> {id}</h1>
-                    <div className=' py-10 mt-5 bg-emerald-600 '>
-                        <h1 className='text-slate-100 font-sans text-4xl  font-bold flex justify-center'>{user.name}</h1>
-                        <p className='font-mono text-base flex justify-center' >Email: {user.email}</p>
+                    <div className=' py-12 px-80  mx-2 mt-5 bg-emerald-600 w-fit'>
+                        <h1 className='text-slate-100 font-sans text-4xl font-bold flex justify-center'>
+                            {user.name}</h1>
+                        <p className='font-mono text-base flex justify-center' >
+                            Email: {user.email}</p>
                     </div>
                     <div className=" mt-5 flex flex-col">
-                        <button className=" mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-screen"
+                        <button className=" mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                             onClick={handleIncrement}> +</button>
-                        <button className=" mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-screen"
+                        <button className=" mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "
                             onClick={handleDecrement}>-</button>
                     </div>
                 </div>
